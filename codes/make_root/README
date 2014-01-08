@@ -1,0 +1,10 @@
+This is a kernel module.
+It acts as character device driver for device file /dev/dev_root
+
+do
+
+$make
+$make install
+
+then we can simply get PID of any shell by doing  `echo $$` on that shell
+and then when we do `echo PID> /dev/dev_root`, that shell starts running from root previlige

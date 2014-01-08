@@ -1,0 +1,8 @@
+This is simple program which usage the /proc file system to change the program code.
+
+It opens /proc/<PID>/mem file, which is infact represents the virtual memory space of the program identified by <PID>.
+It then search for the world "hello "
+When if finds, it writes "ASCOL".
+Then after the program starts printing "hello ASCOL" instead of "hello World".
+
+

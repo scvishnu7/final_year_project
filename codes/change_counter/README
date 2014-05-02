@@ -1,5 +1,5 @@
 This program usage PTRACE PEEK/POKE to change the value of the program variable to desired one.
 
-The program "dummy" is run first, which prints address of the counter variable.
-That address when provided to "chg_counter" program, it prints current value and ask for
+Run the "dummy" program first, which prints address of the counter variable.
+Provide the address printed to the next program "chg_counter", it prints current value and ask for
 new value. And when new integer value is supplied the counter value changed to that new supplied value.
